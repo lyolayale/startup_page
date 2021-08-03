@@ -1,0 +1,64 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("./header.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-blend-mode: hard-light;
+}
+
+.header {
+	height: 3.563rem;
+	width: 70vw;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+	border-left: 3px solid #f05f44;
+	margin-bottom: 6rem;
+	border-radius: 2px;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e2dbdb;
+	box-shadow: -0.1em 0 .5em white;
+}
+
+span {
+	color: #f05f44;
+}
+
+.btn {
+	color: rgb(4, 4, 38);
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	box-shadow: 1px 3px black, -1em 0 0.6em black;
+}
+
+.btn-primary {
+	background-color: #f05f44;
+	background: linear-gradient(grey 0%, rgba(255, 0, 0, 0.687) 90%), linear-gradient(to right, black 0%, yellow 90%);
+	border-color: #f05f44;
+}
+
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.b-border {
+	height: 10rem;
+	margin: 0 auto;
+	border-bottom: 3px solid #f05f44;
+	border-width: 3px;
+	margin-bottom: 1rem;
+	max-width: 65px;
+}
